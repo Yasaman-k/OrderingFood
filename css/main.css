@@ -1,0 +1,120 @@
+
+/* add font icons */
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/materialize-icon/font-icon.woff2) format('woff2');
+}
+@font-face {
+  font-family: Shabnam;
+  src: url('/fonts/shabnam/Shabnam.eot');
+  src: url('/fonts/shabnam/Shabnam.eot?#iefix') format('embedded-opentype'),
+       url('/fonts/shabnam/Shabnam.woff2') format('woff2'),
+       url('/fonts/shabnam/Shabnam.woff') format('woff'),
+       url('/fonts/shabnam/Shabnam.ttf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Shabnam;
+  src: url('/fonts/shabnam/Shabnam-Bold.eot');
+  src: url('/fonts/shabnam/Shabnam-Bold.eot?#iefix') format('embedded-opentype'),
+       url('/fonts/shabnam/Shabnam-Bold.woff2') format('woff2'),
+       url('/fonts/shabnam/Shabnam-Bold.woff') format('woff'),
+       url('/fonts/shabnam/Shabnam-Bold.ttf') format('truetype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Shabnam;
+  src: url('/fonts/shabnam/Shabnam-Light.eot');
+  src: url('/fonts/shabnam/Shabnam-Light.eot?#iefix') format('embedded-opentype'),
+       url('/fonts/shabnam/Shabnam-Light.woff2') format('woff2'),
+       url('/fonts/shabnam/Shabnam-Light.woff') format('woff'),
+       url('/fonts/shabnam/Shabnam-Light.ttf') format('truetype');
+  font-weight: 300;
+}
+body
+{
+  
+  background-color: whitesmoke;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  
+}
+*{
+	padding: 0px;
+	margin: 0px;
+}
+he
+h5
+{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ 
+}
+ul p 
+{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ font-size: 50px;
+}
+header  
+{
+  padding: 2px;
+  text-align: left;
+  background:whitesmoke;
+  text-align: justify;
+  
+}
+
+
+
+header nav div ul a {
+  color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+ 
+  
+}
+header nav ul li span{
+  color:red;
+}
+
+ header nav{
+  box-shadow: none;
+  background-color: whitesmoke;
+}
+ section article{
+  border: 2px solid black;
+  border-radius: 20px;
+  color: red;
+  
+}
+.ss
+{
+margin-left: auto;
+margin-right: auto;
+border-width: 2px;
+background-color:  #ef7676;
+border:  #ef7676 solid 5px;
+
+
+}
+
+footer {
+   
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: black;
+    background:#fce8e8;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 30px solid  #fce8e8;  
+   
+  
+  }
+
+ 

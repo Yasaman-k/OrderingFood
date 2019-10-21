@@ -1,0 +1,130 @@
+/* add font icons */
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/materialize-icon/font-icon.woff2) format('woff2');
+  }
+  @font-face {
+    font-family: Shabnam;
+    src: url('/fonts/shabnam/Shabnam.eot');
+    src: url('/fonts/shabnam/Shabnam.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/shabnam/Shabnam.woff2') format('woff2'),
+         url('/fonts/shabnam/Shabnam.woff') format('woff'),
+         url('/fonts/shabnam/Shabnam.ttf') format('truetype');
+    font-weight: normal;
+  }
+  
+  @font-face {
+    font-family: Shabnam;
+    src: url('/fonts/shabnam/Shabnam-Bold.eot');
+    src: url('/fonts/shabnam/Shabnam-Bold.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/shabnam/Shabnam-Bold.woff2') format('woff2'),
+         url('/fonts/shabnam/Shabnam-Bold.woff') format('woff'),
+         url('/fonts/shabnam/Shabnam-Bold.ttf') format('truetype');
+    font-weight: bold;
+  }
+  
+  @font-face {
+    font-family: Shabnam;
+    src: url('/fonts/shabnam/Shabnam-Light.eot');
+    src: url('/fonts/shabnam/Shabnam-Light.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/shabnam/Shabnam-Light.woff2') format('woff2'),
+         url('/fonts/shabnam/Shabnam-Light.woff') format('woff'),
+         url('/fonts/shabnam/Shabnam-Light.ttf') format('truetype');
+    font-weight: 300;
+  }
+
+html{
+    font-family: sans-serif; 
+
+}
+  .material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+  }
+h1
+{
+  color:blueviolet;
+}
+
+
+.rtl,section{
+  direction: rtl;
+  text-align: right;
+}
+
+/* header navbar */
+nav{
+  box-shadow: none;
+  background-color: #FAFAFA;
+}
+nav ul a{
+  color: black;
+  
+}
+nav ul a:hover{
+  background-repeat: transparent;
+}
+nav ul li a span{
+  color:red;
+
+}
+
+ul a{
+  color:purple;
+  font-size: 25px;
+  
+}
+ul a:hover{
+  background-repeat: transparent;
+}
+ul li  span{
+  color:white;
+
+}
+nav ul li{
+  float: right;
+  color: black;
+ 
+}
+nav .brand-logo img{
+  height: 25px;
+}
+
+/* end header navbar */
+
+
+/*main*/
+/*search box */
+
+.search-input-box{
+  display: flex;
+  widows: 550px;
+  box-shadow: 1 2px ;
+  
+  
+}
+.search-input-box #search:focus{
+  border: 0px;
+  box-shadow: none;
+
+}
+.search-input-box #search-box-search{
+  width: 4px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #FAFAFA;
+  margin:10px;
+}

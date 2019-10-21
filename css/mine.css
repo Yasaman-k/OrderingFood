@@ -1,0 +1,10 @@
+.req1::before
+{
+    content: "";
+color: red;
+}
+.req2::before
+{
+    content: "";
+color: red;
+}

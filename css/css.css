@@ -1,0 +1,52 @@
+body{
+	 background-color: rgba(66,64,55,1);	
+	 background-image: url('2.PNG');
+	 background-attachment: fixed;
+	 background-repeat: no-repeat;
+	 background-size: 100% 100%;
+	
+
+}
+p#login{
+	font-size: 20px;
+}
+span.register{
+	color: black;
+}
+li.menubar{display: inline-block;
+
+}
+p#login>a{
+	text-decoration: none;
+}
+.socialMedia{
+	width: 30px;
+	height:30px;
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 100%;
+	line-height: 27px;
+	background-color: white;
+	display: inline-block;
+}
+nav.navbar {
+	opacity: 0.7;
+}
+a#Facebook{
+	color: rgba(81,29,235,1);
+}
+a#Instagram{
+	color: rgba(226,95,145,1);
+}
+a#Telegram{
+	color: rgb(62,132,236);
+}
+a#Twitter{
+	color: rgb(77,141,238);
+}
+a#SoundCloud{
+	color: rgb(236,111,17);
+}
+a#Discord{
+	color: rgba(106,106,106,1);
+}

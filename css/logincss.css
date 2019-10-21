@@ -1,0 +1,36 @@
+body{
+	/*background-color: rgba(66,64,55,1);*/
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-image: url('login.jpg');
+	background-size: 100% 100%;
+	/*background-size: cover;*/
+	/*background-position: left;*/
+}
+*{
+	padding: 0px;
+	margin: 0px;
+}
+input.loggin{
+	padding: 5px;
+	text-align: center;
+	margin-top: 15px;
+	width: 100%;
+}
+button#submit{
+	cursor: pointer;
+	text-align: center;
+	width: 100px;
+	float : right;
+	margin-top: 10px;
+	margin-left: 50%;
+	transform : translate(-50%,0);
+}
+/*.loggin:hover{
+	border:  solid rgba(66,64,55,1);
+}
+*/
+div#login{
+	margin: 40px auto 0 auto;
+	width: 200px;
+}

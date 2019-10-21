@@ -1,0 +1,452 @@
+/* add font icons */
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/materialize-icon/font-icon.woff2) format('woff2');
+  }
+  @font-face {
+    font-family: Shabnam;
+    src: url('/fonts/shabnam/Shabnam.eot');
+    src: url('/fonts/shabnam/Shabnam.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/shabnam/Shabnam.woff2') format('woff2'),
+         url('/fonts/shabnam/Shabnam.woff') format('woff'),
+         url('/fonts/shabnam/Shabnam.ttf') format('truetype');
+    font-weight: normal;
+  }
+  
+  @font-face {
+    font-family: Shabnam;
+    src: url('/fonts/shabnam/Shabnam-Bold.eot');
+    src: url('/fonts/shabnam/Shabnam-Bold.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/shabnam/Shabnam-Bold.woff2') format('woff2'),
+         url('/fonts/shabnam/Shabnam-Bold.woff') format('woff'),
+         url('/fonts/shabnam/Shabnam-Bold.ttf') format('truetype');
+    font-weight: bold;
+  }
+  
+  @font-face {
+    font-family: Shabnam;
+    src: url('/fonts/shabnam/Shabnam-Light.eot');
+    src: url('/fonts/shabnam/Shabnam-Light.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/shabnam/Shabnam-Light.woff2') format('woff2'),
+         url('/fonts/shabnam/Shabnam-Light.woff') format('woff'),
+         url('/fonts/shabnam/Shabnam-Light.ttf') format('truetype');
+    font-weight: 300;
+  }
+  @font-face {
+    font-family: 'iransans';
+    font-style: normal;
+    font-weight: 300;
+    src: url(/bundles/bodofoodfrontend/fonts/iransans/eot/IRANSansWeb_Light.eot?v1507);
+    src:  url(/bundles/bodofoodfrontend/fonts/iransans/eot/IRANSansWeb_Light.eot?#iefix?v1507) format('embedded-opentype'),  /* IE6-8 */
+    url(/bundles/bodofoodfrontend/fonts/iransans/woff2/IRANSansWeb_Light.woff2?v1507) format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+    url(/bundles/bodofoodfrontend/fonts/iransans/woff/IRANSansWeb_Light.woff?v1507) format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url(/bundles/bodofoodfrontend/fonts/iransans/ttf/IRANSansWeb_Light.ttf?v1507) format('truetype');
+  }
+html{
+    font-family: 'iransans';    
+}
+  .material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+  }
+
+
+
+
+
+/* utility */
+
+
+.rtl,section{
+    direction: rtl;
+    text-align: right;
+}
+section{
+    margin-bottom: 25px;
+}
+
+h1{
+    font-size: 1.78rem;
+}
+h2{
+    font-size: 1.14rem;
+    position: relative;
+}
+h3{
+    margin: 1rem 0;
+    font-size: 1.17rem;
+}
+
+.mg-top{
+    margin-top: 20px;
+}
+
+.border-bottom::after{
+    content: "";
+    width: 50px;
+    height: 2px;
+    background-color: #06b3a8;
+    position: absolute;
+    top: 25px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+}
+
+/* Header Navbar */
+nav {
+    box-shadow: unset;
+    background-color: #06b3a8;
+}
+nav ul a {
+    color:#242424;
+}
+nav ul a:hover{
+    background: transparent;
+}
+
+
+nav .brand-logo img {
+    margin-top: 20px;
+}
+/* End Header Navbar */
+
+
+
+/* section Search */
+.search-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.search-input{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    padding-right: 15px;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.18);
+    height: 60px;
+}
+.search-input__icon-search{
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #31bad5;
+    box-shadow: 0 1px 3px 0 #31bad5;
+    align-self: center;
+    margin:0px 15px;
+}
+.search-input__icon-location{
+    align-self: center;
+
+}
+#search-input__input{
+    border-bottom: unset;
+    margin:0px;
+    height: 60px;
+}
+#search-input__input:focus{
+    box-shadow: unset;
+}
+/* End section Search */
+
+
+
+/* category section */
+.category-box{
+    display: flex;
+    flex:1;
+    padding: 1rem 0px;
+    margin-top: 100px;
+}
+
+
+
+
+
+/* Article */
+.categories{
+    display: flex;
+    flex-direction: row;
+    scroll-behavior: smooth;
+    webkit-overflow-scrolling: touch;
+    justify-content: space-between;
+}
+.category-product{
+    overflow: hidden;
+
+}
+.category-product__img{
+    width: 250px;
+    height: 69px;
+    object-fit: cover;
+}
+.category-product__info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/* End Article */
+/* End category section */
+
+
+
+/* new Homez */
+.homez-sec{
+    overflow-x: hidden;
+}
+.new-homez{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.home{
+    width: 150px;
+    
+    overflow: hidden;
+    background-color:palevioletred;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-bottom: 20 px;
+}
+.home img{
+    height: 100px;
+    width: 100%;
+    object-fit: cover
+}
+.home .home-content,.home .home-footer{
+    padding:0 15px;
+}
+.home .home-content p{
+    font-size: 1rem;
+    color:#616161;
+}
+.home .home-content i {
+    position: relative;
+    top: 2px;
+    font-size: 1 rem;
+}
+.home .home-footer p{
+    font-size: 0.9rem;
+    color:#616161;
+    margin: 5px 0px;
+}
+.btn-homez{
+    /* width: 123px; */
+    height: 40px;
+    line-height: 25px;
+    border-radius: 23px;
+    border: solid 1px #31bad5; 
+}
+.btn-homez i {
+    position: relative;
+    top: 5px;
+}
+
+
+/* homez carousle */
+.homez-carousle{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+.homez-carousle-items .counter span{
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+.homez-carousle-items img{
+    width: 500px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+.homez-carousle-items .item{
+    position: relative;
+    display: none;
+}
+/* animation */
+.homez-carousle-items .item img, .homez-carousle-items .item .card{
+    opacity: 0;
+    transform: scale(1,1);
+    right: -50px !important;
+}
+.homez-carousle-items .item.active img, .homez-carousle-items .item.active .card{
+    animation: slider 1s ease-in-out  forwards;
+    opacity: 1;
+    right: 0px;
+}
+
+@keyframes slider {
+    from{
+        right: -40px !important;
+        opacity: 0.5;
+        transform:scale(0.9.5);
+        -webkit-transform:scale(0.9.5);
+        -moz-transform:scale(0.9.5);
+        -ms-transform:scale(0.9.5);
+        -o-transform:scale(0.9.5);
+}
+    to{
+        right:-40px;
+        opacity: 1;
+        transform:scale(1);
+        -webkit-transform:scale(1);
+        -moz-transform:scale(1);
+        -ms-transform:scale(1);
+        -o-transform:scale(1);
+    }
+}
+.homez-carousle-items .item.active{
+    display: inherit;
+}
+.homez-carousle-items .item .card{
+    position: absolute;
+    right: -50px;
+    bottom: -80px;
+    text-align: right;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.homez-carousle-items .item .card .card-content{
+    padding: 10px;
+    color:#616161;
+}
+.homez-carousle-items .item .card .card-content p {
+    margin: 2px 0px;
+}
+.homez-carousle-items .item i {
+    position: relative;
+    top: 3px;
+    font-size: 1.1rem;
+}
+.homez-carousle-description {
+    text-align: center;
+    width: 350px;
+    align-self: center;
+} 
+
+.btn-homez.fill{
+    background-color: #31bad5;
+    line-height: 35px;
+}
+.homez-carousle-description a.next {
+line-height: 23px;
+}
+.homez-carousle-description a.next i {
+    top: 7px;
+}
+.homez-carousle-description a.back{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.homez-carousle-description a.back i {
+    position: relative;
+    left: 6px;
+    top: 7px;
+}
+/* homez carousle */
+
+
+/* download app */
+.download-app{
+    margin-top: 120px;
+}
+.download-app .img{
+    position: relative;
+}
+.download-app .img img {
+    position: absolute;
+    height: 350px;
+    top: -70px;
+    left: 0px;
+    right: 0px;
+}
+
+
+
+/* best estate */
+.best-estate-carousle .owl-stage{
+    display: flex;
+    flex-direction: row-reverse;
+    overflow: hidden;
+    margin-top: 45px;
+}
+.best-estate-carousle a{
+    width: 70px;
+    height: 70px;
+    display: block;
+    border:1px solid rgb(22, 136, 241);
+    background-color: rgb(113, 193, 240);
+}
+.best-estate-carousle .owl-stage-outer{
+    overflow: hidden;
+    padding-right: 45px;
+}
+
+.best-estate-carousle .owl-next{
+    float: left;
+    position: relative;
+    bottom: 55px;
+    background-color: transparent;
+    border: none;
+    font-size: 40px;
+}
+.best-estate-carousle .owl-prev{
+    position: relative;
+    bottom: 55px;
+    background-color: transparent;
+    border: none;
+    font-size: 40px;
+}
+
+.owl-dots{
+    text-align: center;
+    
+}
+
+.best-estate-carousle .owl-dots .owl-dot{
+    width: 21px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #bdbdbd;
+    border: none;
+    margin-right: 10px;
+}
+.best-estate-carousle .owl-dots .owl-dot.active{
+    width: 21px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #06b3a8;
+}

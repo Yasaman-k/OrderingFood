@@ -1,0 +1,30 @@
+
+input.registerr{
+	padding: 5px;
+	text-align: right;
+	margin-top: 15px;
+	width: 100%;
+}
+
+
+
+button#submit{
+	cursor: pointer;
+	text-align: right;
+	width: 100px;
+	float : right;
+	margin-top: 10px;
+	margin-left: 50%;
+	transform : translate(-50%,0);
+
+}
+/*.loggin:hover{
+	border:  solid rgba(66,64,55,1);
+}
+*/
+
+div#register{
+margin: 40px auto 0 auto;
+	width: 200px;
+}
+
